@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sumedh Kagwade | Finance &amp; Investment Research</title>
+<meta name="description" content="Portfolio of Sumedh Kagwade, PGDM Finance &amp; Analytics student. Financial modelling, valuation and equity research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d1b2a;--ink2:#14263b;--line:#27405c;--paper:#f1ece1;--mute:#a3b3c6;--gold:#e2b04a;--sea:#5ec4b6;
+--serif:'Newsreader',Georgia,serif;--sans:'Instrument Sans',system-ui,-apple-system,Segoe UI,sans-serif}
+@media(prefers-color-scheme:light){:root{--ink:#f6f2e9;--ink2:#ebe5d6;--line:#cfc6b0;--paper:#10202f;--mute:#4d5f72;--gold:#9a6b0a;--sea:#17766b}}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--ink);color:var(--paper);font:400 17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1}
+h2{font-size:clamp(30px,5vw,44px);margin-bottom:12px}
+section{padding:92px 0}.alt{background:var(--ink2)}
+.lede{color:var(--mute);max-width:60ch;margin-bottom:42px}
+nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--ink) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+.logo{font:600 21px var(--serif);text-decoration:none}
+nav ul{display:flex;gap:24px;list-style:none;padding:0;font-size:15px}
+nav ul a{text-decoration:none;color:var(--mute);transition:color .2s}nav ul a:hover{color:var(--paper)}
+@media(max-width:820px){nav ul{display:none}}
+.hero{position:relative;padding:120px 0 100px;overflow:hidden}
+.hero svg.chart{position:absolute;inset:auto 0 0 0;width:100%;height:70%;pointer-events:none}
+.chart .area{fill:url(#g);opacity:0;animation:fade 1.2s 1.6s forwards}
+.chart .ln{fill:none;stroke:var(--gold);stroke-width:2.5;stroke-dasharray:2400;stroke-dashoffset:2400;animation:draw 2.6s .3s cubic-bezier(.6,.1,.2,1) forwards}
+.chart .grid{stroke:var(--line);opacity:.6}
+.chart .dot{fill:var(--gold);opacity:0;animation:fade .4s 2.7s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}@keyframes fade{to{opacity:1}}
+.hero .wrap{position:relative}
+.hero h1{font-size:clamp(46px,9vw,104px);letter-spacing:-.02em;margin-bottom:22px}
+.hero .sub{font-size:clamp(18px,2.4vw,23px);max-width:36ch}
+.hero .meta{margin:20px 0 36px;color:var(--mute);font-size:15px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 26px;border-radius:6px;font-weight:600;text-decoration:none;transition:transform .2s,border-color .2s}
+.btn.pri{background:var(--gold);color:#10202f}.btn.pri:hover{transform:translateY(-2px)}
+.btn.sec{border:1px solid var(--line)}.btn.sec:hover{border-color:var(--gold)}
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:56px;align-items:start}
+.about p+p{margin-top:16px}.stats{display:grid;gap:16px}
+.stat{border-left:3px solid var(--gold);padding:4px 0 4px 18px}
+.stat b{display:block;font:600 34px/1.1 var(--serif)}.stat span{color:var(--mute);font-size:15px}
+@media(max-width:800px){.about{grid-template-columns:1fr;gap:32px}}
+.chips{display:flex;flex-wrap:wrap;gap:12px}.chips span{padding:12px 22px;border:1px solid var(--line);border-radius:99px;font-weight:500;background:var(--ink);transition:border-color .2s,transform .2s}.chips span:hover{border-color:var(--gold);transform:translateY(-2px)}
+.bars{display:grid;grid-template-columns:1fr 1fr;gap:26px 56px}
+.bar .row{display:flex;justify-content:space-between;font-weight:500;margin-bottom:8px}
+.bar em{font-style:normal;color:var(--mute);font-variant-numeric:tabular-nums}
+.track{height:8px;background:var(--ink);border-radius:4px;overflow:hidden}
+.fill{height:100%;width:0;border-radius:4px;background:linear-gradient(90deg,var(--sea),var(--gold));transition:width 1.4s cubic-bezier(.2,.7,.2,1)}
+@media(max-width:700px){.bars{grid-template-columns:1fr}}
+.tl{border-left:2px solid var(--line);padding-left:30px;display:grid;gap:44px}
+.job{position:relative}
+.job::before{content:"";position:absolute;left:-38px;top:9px;width:14px;height:14px;border-radius:50%;background:var(--ink);border:3px solid var(--gold)}
+.job h3{font-size:24px}.job .when{color:var(--gold);font-size:15px;font-weight:500;margin:4px 0 10px}
+.job ul{color:var(--mute);max-width:70ch;padding-left:18px;display:grid;gap:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.card{background:var(--ink2);border:1px solid var(--line);border-radius:10px;padding:28px;display:flex;flex-direction:column;transition:transform .25s,border-color .25s}
+.alt .card{background:var(--ink)}.card:hover{transform:translateY(-4px);border-color:var(--gold)}
+.card h3{font-size:23px;margin-bottom:12px}
+.card ul{color:var(--mute);font-size:16px;padding-left:18px;display:grid;gap:8px;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.tags span{font-size:13px;padding:3px 11px;border:1px solid var(--line);border-radius:99px;color:var(--sea)}
+.edu{display:grid;gap:14px}
+.ed{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:22px 26px;background:var(--ink2);border:1px solid var(--line);border-radius:10px}
+.ed h3{font-size:21px}.ed p{color:var(--mute);font-size:15px}
+.ed .r{text-align:right}.ed .r b{font:600 22px var(--serif);color:var(--gold);display:block}.ed .r span{color:var(--mute);font-size:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.two h3{font-size:26px;margin-bottom:16px}
+.two ul{padding-left:18px;color:var(--mute);display:grid;gap:10px}
+@media(max-width:800px){.two{grid-template-columns:1fr}}
+.paper{border-top:4px double var(--paper);border-bottom:1px solid var(--paper);padding:34px 0;text-align:center}
+.paper .mast{font:600 clamp(40px,8vw,84px)/1 var(--serif);letter-spacing:-.01em}
+.paper .dl{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:20px 0;padding:8px 0;color:var(--mute);font-size:14px}
+.paper p{max-width:62ch;margin:0 auto 12px;color:var(--mute)}
+.pipe{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:26px 0}
+.pipe span{padding:6px 14px;border:1px solid var(--line);border-radius:99px;font-size:14px;color:var(--sea)}
+[hidden]{display:none!important}
+.view{margin-top:20px;align-self:flex-start;cursor:pointer;font:inherit;font-weight:600;background:none;color:inherit}
+.modal{position:fixed;inset:0;z-index:50;background:rgba(5,12,20,.88);display:none;flex-direction:column;padding:3vh 3vw}
+.modal.open{display:flex}
+.mbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 18px;background:var(--ink2);border:1px solid var(--line);border-radius:10px 10px 0 0}
+.mbar b{font:600 20px var(--serif)}.mbar div{display:flex;gap:10px}
+.mbar .btn{padding:8px 16px;font-size:14px}
+.modal iframe{flex:1;border:0;background:#fff;border-radius:0 0 10px 10px;width:100%}
+.contact{text-align:center}.contact h2{font-size:clamp(34px,6vw,60px)}
+.contact .btns{justify-content:center;margin-top:30px}
+footer{padding:30px 0;text-align:center;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rv{opacity:1;transform:none;transition:none}
+.chart .ln{animation:none;stroke-dashoffset:0}.chart .area,.chart .dot{animation:none;opacity:1}.fill{transition:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#top">Sumedh Kagwade</a>
+<ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#newspaper">Market Chronicle</a></li><li><a href="#education">Education</a></li><li><a href="#more">Credentials</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="hero" id="top">
+<svg class="chart" viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2b04a" stop-opacity=".28"/><stop offset="1" stop-color="#e2b04a" stop-opacity="0"/></linearGradient></defs>
+<line class="grid" x1="0" x2="1200" y1="100" y2="100"/><line class="grid" x1="0" x2="1200" y1="200" y2="200"/><line class="grid" x1="0" x2="1200" y1="300" y2="300"/>
+<path class="area" d="M0 340 L80 310 L160 325 L250 270 L330 285 L420 220 L500 240 L590 180 L680 205 L770 130 L860 150 L950 85 L1040 105 L1130 40 L1200 55 L1200 400 L0 400Z"/>
+<path class="ln" d="M0 340 L80 310 L160 325 L250 270 L330 285 L420 220 L500 240 L590 180 L680 205 L770 130 L860 150 L950 85 L1040 105 L1130 40 L1200 55"/>
+<circle class="dot" cx="1198" cy="55" r="6"/></svg>
+<div class="wrap">
+<h1>Sumedh<br>Kagwade</h1>
+<p class="sub">Financial modelling, valuation and investment research, powered by code.</p>
+<p class="meta">PGDM Finance &amp; Analytics, PIBM &nbsp;|&nbsp; Pune, Maharashtra, India</p>
+<div class="btns"><a class="btn pri" href="#projects">See my work</a><a class="btn sec" href="#contact">Get in touch</a></div>
+</div></header>
+
+<section id="about"><div class="wrap about">
+<div class="rv"><h2>About me</h2>
+<p>I am a PGDM Finance student who likes to understand businesses, financial markets and investment decisions through practical analysis and modelling.</p>
+<p>My work spans financial analysis, financial modelling, valuation and investment research. I also apply technology-driven tools to change how financial decisions are analysed, from AI-assisted research to a full-stack stock analysis platform.</p></div>
+<div class="stats rv">
+<div class="stat"><b>4,882</b><span>BSE-listed companies covered by my dashboard</span></div>
+<div class="stat"><b>4</b><span>three-statement models built during my internship</span></div>
+<div class="stat"><b>HOLD</b><span>Sun Pharma sell-side rating, target ₹1,817</span></div>
+</div></div></section>
+
+<section id="skills" class="alt"><div class="wrap">
+<div class="rv"><h2>Skills</h2><p class="lede">The areas I work in most.</p></div>
+<div class="chips rv" id="bars"></div></div></section>
+
+<section id="experience"><div class="wrap">
+<div class="rv"><h2>Experience</h2><p class="lede">Equity research and finance writing in Pune.</p></div>
+<div class="tl">
+<div class="job rv"><h3>Equity Research Intern</h3><div class="when">Panoramic Management and Consulting, Pune | May 2025 – Aug 2025</div>
+<ul><li>Built 4 three-statement financial models and analysed 6–7 companies across sectors through ratio analysis, peer benchmarking and competitive analysis.</li>
+<li>Authored a sell-side report on Sun Pharmaceutical Industries with a HOLD rating and a 12-month target of Rs. 1,900–1,950 (CMP Rs. 1,939), using relative valuation at 30–35x FY28E P/E and DCF.</li>
+<li>Used AI-assisted tools to speed up data extraction and summarise qualitative disclosures.</li>
+<li>Built a stock-screening dashboard that my supervisor adopted to shortlist companies, replacing manual screening and cutting research turnaround time.</li></ul></div>
+<div class="job rv"><h3>Finance Intern</h3><div class="when">FINXL Institute, Pune | Dec 2025 – Jan 2026</div>
+<ul><li>Researched digital banking adoption trends and wrote finance articles, including on M&amp;A.</li>
+<li>Supported website updates with basic HTML, building financial writing and client-facing communication skills.</li></ul></div>
+</div></div></section>
+
+<section id="projects" class="alt"><div class="wrap">
+<div class="rv"><h2>Projects</h2><p class="lede">Academic and independent work that combines valuation with software.</p></div>
+<div class="grid">
+<article class="card rv" style="grid-column:1/-1"><h3>BSE Fundamental Analysis Dashboard</h3><ul>
+<li>Built and maintained across 16+ versions as a full-stack equity research platform for 4,882 BSE-listed companies, with a live pricing backend on Node.js, Vercel and the Fyers API.</li>
+<li>Designed a 5-parameter scoring framework (Growth, Cash Flow, Returns, Debt, Valuation) that auto-rates stocks from Strong Buy to Avoid.</li>
+<li>Engineered a 4-pass AI concall pipeline (Groq / Llama 3.3) that turns full earnings-call transcripts into structured summaries, with risk extraction and management tone scoring, in under 4 minutes.</li></ul>
+<div class="tags"><span>Node.js</span><span>Vercel</span><span>Fyers API</span><span>Groq / Llama 3.3</span></div><button class="btn sec view" data-key="bse" data-title="BSE Fundamental Analysis Dashboard" hidden>Open the dashboard</button></article>
+<article class="card rv"><h3>Sun Pharma Three-Statement Model</h3><ul><li>Excel forecasting model projecting revenue, profitability and cash flow through regression analysis and growth assumptions.</li><li>Integrated P&amp;L, Cash Flow and Ratios worksheets.</li></ul><div class="tags"><span>Excel</span><span>Regression</span><span>Forecasting</span></div><button class="btn sec view" data-key="model" data-title="Sun Pharma Three-Statement Model" hidden>View the model</button></article>
+<article class="card rv"><h3>Waaree Energies Three-Statement Model</h3><ul><li>Integrated P&amp;L, balance sheet and cash flow forecast with ratio analysis.</li><li>Built on historical financials and growth assumptions.</li></ul><div class="tags"><span>Excel</span><span>Forecasting</span></div><button class="btn sec view" data-key="waaree" data-title="Waaree Energies Three-Statement Model" hidden>View the model</button></article>
+<article class="card rv"><h3>KNR Constructions Three-Statement Model</h3><ul><li>Integrated forecast across the three statements, with ratio and common-size analysis.</li><li>Covers the infrastructure construction business.</li></ul><div class="tags"><span>Excel</span><span>Forecasting</span></div><button class="btn sec view" data-key="knr" data-title="KNR Constructions Three-Statement Model" hidden>View the model</button></article>
+<article class="card rv"><h3>Painting Sector Relative Valuation</h3><ul><li>Comparable-company valuation across listed paint companies.</li><li>Peer multiples compared side by side.</li></ul><div class="tags"><span>Comps</span><span>Relative valuation</span></div><button class="btn sec view" data-key="comps" data-title="Painting Sector Relative Valuation" hidden>View the model</button></article>
+<article class="card rv"><h3>Sun Pharma Sell-Side Report</h3><ul><li>Full sell-side report with a HOLD rating and a 12-month target of ₹1,817 against a reference price of ₹1,849.90.</li><li>Covers the investment thesis, Q1 FY27 update, peer comparison, forecasts and risks.</li></ul><div class="tags"><span>Valuation</span><span>DCF</span><span>Equity research</span></div><button class="btn sec view" data-key="report" data-title="Sun Pharma Sell-Side Report" hidden>Read the report</button></article>
+</div></div></section>
+
+<section id="newspaper" class="alt"><div class="wrap rv">
+<div class="paper">
+<div class="mast">The Market Chronicle</div>
+<div class="dl"><span>Daily morning briefing</span><span>Curated by Sumedh Kagwade</span><span id="today"></span></div>
+<p>A personal daily newspaper that collects the morning’s market news in one place: global finance and economy, India finance and economy, and live rupee exchange rates. Stories are tagged by sector, from banking and IT to energy, bonds and IPOs, so I can scan what matters first.</p>
+<div class="pipe"><span>Finnhub</span><span>Economic Times</span><span>Mint</span><span>Moneycontrol</span><span>Sector tagging</span><span>Currency table</span><span>GitHub Pages</span></div>
+<a class="btn pri" id="paperLink" href="#" target="_blank" rel="noopener" hidden>Read today’s edition</a>
+</div></div></section>
+
+<section id="education"><div class="wrap">
+<div class="rv"><h2>Education</h2></div><br>
+<div class="edu">
+<div class="ed rv"><div><h3>PGDM, Finance &amp; Analytics</h3><p>Pune Institute of Business Management, Pune</p></div><div class="r"><b>2025 – 2027</b><span>Pursuing</span></div></div>
+<div class="ed rv"><div><h3>Bachelor of Commerce</h3><p>Shri Venkatesh Mahavidyalaya, Ichalkaranji</p></div><div class="r"><b>2022 – 2025</b></div></div>
+<div class="ed rv"><div><h3>Higher Secondary Certificate</h3><p>English Medium High School &amp; Jr. College, Ichalkaranji</p></div><div class="r"><b>2022</b></div></div>
+<div class="ed rv"><div><h3>Secondary School Certificate</h3><p>Alphonsa School &amp; Jr. College, Yadrav</p></div><div class="r"><b>2020</b></div></div>
+</div></div></section>
+
+<section id="more" class="alt"><div class="wrap two rv">
+<div><h3>Certifications</h3><ul>
+<li>Bloomberg Market Concepts (BMC), 2026</li><li>Financial Markets, Coursera, 2025</li>
+<li>Bank of America Investment Banking Job Simulation, Forage, 2026</li><li>Claude 101, Anthropic, 2026</li></ul></div>
+<div><h3>Achievements &amp; activities</h3><ul>
+<li>Represented Maharashtra in the Under-19 National Cricket Championship, and played skating at state level.</li>
+<li>Volunteered in the Sports Committee for the PIBM College Glory event.</li>
+<li>Run long distances regularly to build discipline and consistency.</li></ul></div>
+</div></section>
+
+<section id="contact"><div class="wrap contact rv">
+<h2>Let’s talk finance.</h2>
+<p class="lede" style="margin:0 auto">Open to analyst roles in investment banking and equity research.</p>
+<div class="btns"><a class="btn pri" href="mailto:sumedhkagwade@gmail.com">Email me</a><a class="btn sec" href="https://www.linkedin.com/in/sumedh-kagwade" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></section>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mt"><div class="mbar"><b id="mt"></b><div><a class="btn sec" id="mopen" href="#" target="_blank" rel="noopener">Open in new tab</a><button class="btn pri" id="mclose" style="cursor:pointer;font:inherit;font-weight:600">Close</button></div></div><iframe id="mframe" title="Project viewer"></iframe></div>
+<footer>&copy; <span id="yr"></span> Sumedh Kagwade</footer>
+
+<script>
+const skills=["Financial markets","Fixed income","Risk analysis","Financial modelling","MS Excel","Financial statement analysis","Valuation","Bloomberg Market Concepts"];
+document.getElementById('bars').innerHTML=skills.map(n=>`<span>${n}</span>`).join('');
+// Paste a link per project. A PDF or Excel file placed in the same repo works, e.g. "files/sun-pharma-model.pdf", as does any live site.
+const PROJECT_LINKS={bse:"files/bse-dashboard.html",model:"files/sun-pharma-model.html",waaree:"files/waaree-model.html",knr:"files/knr-model.html",comps:"files/painting-comps.html",report:"files/sun-pharma-report.pdf"};
+const modal=document.getElementById('modal'),mf=document.getElementById('mframe');
+function closeM(){modal.classList.remove('open');mf.src='about:blank';document.body.style.overflow=''}
+document.querySelectorAll('.view').forEach(b=>{const u=PROJECT_LINKS[b.dataset.key];if(!u)return;b.hidden=false;
+b.onclick=()=>{document.getElementById('mt').textContent=b.dataset.title;document.getElementById('mopen').href=u;mf.src=u;modal.classList.add('open');document.body.style.overflow='hidden';document.getElementById('mclose').focus()}});
+document.getElementById('mclose').onclick=closeM;
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('open'))closeM()});
+const NEWSPAPER_URL="https://sumedhk-hash.github.io/market-chronicle/"; 
+const pl=document.getElementById('paperLink');if(NEWSPAPER_URL){pl.href=NEWSPAPER_URL;pl.hidden=false}
+document.getElementById('today').textContent=new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+document.getElementById('yr').textContent=new Date().getFullYear();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');
+e.target.querySelectorAll('.fill').forEach(f=>f.style.width=f.dataset.w+'%');io.unobserve(e.target)}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
